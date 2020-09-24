@@ -1,6 +1,7 @@
 #!/bin/bash
 
-# USAGE: sudo bash -c "$(wget -qLO - https://gitlab.cpha.pt/jassuncao/cpha//raw/master/install.sh)"
+# USAGE:
+# sudo bash -c "$(wget -qLO - https://gitlab.cpha.pt/jassuncao/cpha/-/raw/master/proxmox/proxmox_prepare.sh)"
 
 # Disable Commercial Repo
 sed -i "s/^deb/\#deb/" /etc/apt/sources.list.d/pve-enterprise.list
