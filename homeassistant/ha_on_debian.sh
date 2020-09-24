@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # USAGE:
-# sudo bash -c "$(wget -qLO - https://gitlab.cpha.pt/jassuncao/cpha/-/raw/master/proxmox/proxmox_prepare.sh)"
+# sudo bash -c "$(wget -qLO - https://gitlab.cpha.pt/jassuncao/cpha/-/raw/master/homeassistant/ha_on_debian.sh)"
 
 # Disable Commercial Repo
 
