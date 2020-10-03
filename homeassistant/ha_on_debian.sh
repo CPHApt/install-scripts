@@ -114,7 +114,7 @@ fi
 
 # Check dmesg access
 if [[ "$(sysctl --values kernel.dmesg_restrict)" != "0" ]]; then
-    info "Fix kernel dmesg restriction"
+    info "A corrigir a restrição do dmesg no kernel"
     echo 0 > /proc/sys/kernel/dmesg_restrict
     echo "kernel.dmesg_restrict=0" >> /etc/sysctl.conf
 fi
@@ -274,8 +274,11 @@ info "O Home Assistant Supervised está instalado!"
 info "O primeiro arranque irá demorar um pouco, quando estiver pronto poderá ser acedido pelo endereço:"
 info "http://${IP_ADDRESS}:8123"
 info
-info "Se precisares de ajuda usa o seguinte link"
-info "https://forum.cpha.pt"
+info "Se precisares de ajuda usa um dos seguintes links:"
+info
+info "https://forum.cpha.pt ou https://discord.gg/Mh9mTEA"
+info
+info by CPHA - Comunidade Portuguesa de Home Assistant
 info
 
 
