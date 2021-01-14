@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # USAGE:
-# sudo bash -c "$(wget -qLO - https://gitlab.jassuncao.work/cpha/install-scripts/-/blob/master/homeassistant/ha_on_debian.sh)"
+# sudo bash -c "$(wget -qLO - https://gitlab.jassuncao.work/cpha/install-scripts/-/raw/master/homeassistant/ha_on_debian.sh)"
 
 # Disable Commercial Repo
 
