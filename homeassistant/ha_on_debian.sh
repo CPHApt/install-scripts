@@ -3,7 +3,8 @@
 # USAGE:
 # sudo bash -c "$(wget -qLO - https://gitlab.jassuncao.work/cpha/install-scripts/-/raw/master/homeassistant/ha_on_debian.sh)"
 
-# Disable Commercial Repo
+# Configure path
+export PATH=$PATH:/usr/sbin
 
 # Update, upgrade and clean
 apt update && apt upgrade -y && apt autoremove -y
