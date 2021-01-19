@@ -2,6 +2,8 @@
 
 # USAGE:
 # sudo bash -c "$(wget -qLO - https://gitlab.jassuncao.work/cpha/install-scripts/-/raw/master/homeassistant/ha_on_debian.sh)"
+#
+# Se der um erro, dar o comando `export PATH=$PATH:/usr/sbin` antes de correr o script novamente
 
 # Configure path
 export PATH=$PATH:/usr/sbin
