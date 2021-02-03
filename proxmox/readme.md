@@ -10,6 +10,6 @@ O repositório Proxmox contém os seguintes scripts:
 
 #### Script `proxmox_black_theme.sh`
 - Comando de instalação:
-  - 
+  - `bash -c "$(wget -qLO - https://gitlab.jassuncao.work/cpha/install-scripts/-/raw/master/proxmox/proxmox_black_theme.sh)"`
 - Descarrega o ficheiro de instalação
 - Corre o script
