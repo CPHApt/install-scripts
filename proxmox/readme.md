@@ -1,11 +1,15 @@
 O repositório Proxmox contém os seguintes scripts:
 
 #### Script `proxmox_prepare.sh`
+- Comando de instalação:
+  - `bash -c "$(wget -qLO - https://gitlab.jassuncao.work/cpha/install-scripts/-/raw/master/proxmox/proxmox_prepare.sh)"`
 - Retira o repositório comercial,
 - Activa o repositório da comunidade,
 - Actualiza o Proxmox,
 - Retira o popup que avisa sobre não existir uma subscrição
 
 #### Script `proxmox_black_theme.sh`
+- Comando de instalação:
+  - 
 - Descarrega o ficheiro de instalação
 - Corre o script
