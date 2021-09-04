@@ -1,0 +1,30 @@
+kind: pipeline
+name: default
+type: docker
+
+clone:
+  disable: true
+
+steps:
+- name: skip_tls_clone
+  image: plugins/git
+  settings:
+    depth: 10
+    skip_verify: true
+
+- name: deploy
+  image: alpine
+  commands:
+  - echo "this is a dummy deploy step"
+  - pwd
+  - ls -lah /tmp/
+  volumes:
+  - name: docker-cache
+    path: /tmp/
+
+volumes:
+- name: shared
+  temp: {}
+- name: docker-cache
+  host:
+    path: /var/cache/${DRONE_REPO_NAME}/docker
