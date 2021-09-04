@@ -1,32 +1,13 @@
-# TESTE DE DRONE-CI
-
 kind: pipeline
 name: default
-type: docker
-
-clone:
-  disable: true
 
 steps:
-- name: skip_tls_clone
-  image: plugins/git
+- name: semantic-release
+  image: entwico/semantic-release
   settings:
-    depth: 10
-    skip_verify: true
-
-- name: deploy
-  image: alpine
-  commands:
-  - echo "this is a dummy deploy step"
-  - pwd
-  - ls -lah /tmp/
-  volumes:
-  - name: docker-cache
-    path: /tmp/
-
-volumes:
-- name: shared
-  temp: {}
-- name: docker-cache
-  host:
-    path: /var/cache/${DRONE_REPO_NAME}/docker
+    mode: release # "release" means the actual release and "predict" means to generate the version in dry run to use it e.g. before build
+    version_file: .tags # the file where the version will be persisted, defaults to .release-version
+    gitlab_user_name: Jorge Assunção # semantic release committer name (git config user.name)
+    gitlab_user_email: j.assuncao@oestedesign.pt # semantic release committer email (git config user.email)
+    gitlab_token: # semantic release token (for authentication)
+      from_secret:  token
