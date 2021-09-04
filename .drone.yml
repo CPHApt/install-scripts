@@ -1,4 +1,4 @@
-# TESTE DE DRONECI
+# TESTE DE DRONE-CI
 
 kind: pipeline
 name: default
