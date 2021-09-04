@@ -1,4 +1,4 @@
-# TESTE DE DRONE-CI 
+# TESTE DE DRONE-CI
 
 kind: pipeline
 name: default
