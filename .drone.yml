@@ -6,7 +6,7 @@ steps:
   image: entwico/semantic-release
   settings:
     mode: release # "release" means the actual release and "predict" means to generate the version in dry run to use it e.g. before build
-    version_file: .tags # the file where the version will be persisted, defaults to .release-version
+    version_file: .release-version # the file where the version will be persisted, defaults to .release-version
     gitlab_user_name: Jorge Assunção # semantic release committer name (git config user.name)
     gitlab_user_email: j.assuncao@oestedesign.pt # semantic release committer email (git config user.email)
     gitlab_token: # semantic release token (for authentication)
