@@ -1,4 +1,3 @@
-# TESTE DRONE
 # https://github.com/entwico/semantic-release-drone
 
 kind: pipeline
@@ -13,10 +12,10 @@ steps:
     # the file where the version will be persisted, defaults to .release-version
     version_file: .release-version 
     # semantic release committer name (git config user.name)
-    git_user_name: "Jorge Assunção"
+    #git_user_name: "Jorge Assunção"
     # semantic release committer email (git config user.email)
-    git_user_email: "j.assuncao@oestedesign.pt"
+    #git_user_email: "j.assuncao@oestedesign.pt"
     # semantic release token (for authentication)
-    gitlab_token:
-      from_secret:  jass2_token
+    #gitlab_token:
+    #  from_secret:  jass2_token
 
