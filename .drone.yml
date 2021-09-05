@@ -9,7 +9,7 @@ steps:
   settings:
     mode: release 
     version_file: .release-version 
-    git_user_name: drone_ci
-    git_user_email: project12_bot@example.com
-    gl_token:
+    GIT_USER_NAME: drone_ci
+    GIT_USER_EMAIL: project12_bot@example.com
+    GL_TOKEN:
       from_secret:  bot12_token
