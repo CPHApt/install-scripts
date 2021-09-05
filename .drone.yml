@@ -18,4 +18,4 @@ steps:
     git_user_email: j.assuncao@oestedesign.pt
     # semantic release token (for authentication)
     gitlab_token:
-      from_secret:  jass_token
+      from_secret:  jass2_token
