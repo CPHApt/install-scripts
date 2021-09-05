@@ -1,4 +1,4 @@
-# CPHA
+# CPHA-Comunidade Portuguesa de Home Assistant
 
 ##### PT
 Repositório de scripts utilizados pela CPHA - Comunidade Portuguesa de Home Assistant.
