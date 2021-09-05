@@ -11,6 +11,7 @@ steps:
     version_file: .release-version 
     GIT_USER_NAME: Jorge Assunção
     GIT_USER_EMAIL: Jorge Assunção
+    GIT_PUSH_TOKEN: EPy1SXjAPXF-i7n_NWUP
     GL_TOKEN:
       from_secret:  jass2_token
 
