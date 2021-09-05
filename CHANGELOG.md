@@ -1,3 +1,10 @@
+## [1.0.5](http://gitlab.jassuncao.work/cpha/install-scripts/compare/v1.0.4...v1.0.5) (2021-09-05)
+
+
+### Bug Fixes
+
+* .drone.yml ([b08b0fc](http://gitlab.jassuncao.work/cpha/install-scripts/commit/b08b0fc7b8500d0c757327f572615bd7508a8b29))
+
 ## [1.0.4](http://gitlab.jassuncao.work/cpha/install-scripts/compare/v1.0.3...v1.0.4) (2021-09-05)
 
 
