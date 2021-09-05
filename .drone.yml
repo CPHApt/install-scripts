@@ -11,8 +11,8 @@ steps:
   - name: semantic-release
     image: cenk1cenk2/drone-semantic-release
     settings:
-      semantic_release: true
-      mode: release
+      semantic_release: false
+      #mode: release
       git_method: gl
       git_user_name:
         from_secret: user_name_jass
