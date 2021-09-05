@@ -11,5 +11,5 @@ steps:
     version_file: .release-version 
     git_user_name: drone_ci
     git_user_email: project12_bot@example.com
-    gitlab_token:
+    gl_token:
       from_secret:  bot12_token
