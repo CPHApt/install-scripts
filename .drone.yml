@@ -17,7 +17,7 @@ steps:
         from_secret: user_name_jass
       GIT_COMMITTER_EMAIL:
         from_secret: user_email_jass
-      GITLAB_TOKEN:
+      GITHUB_TOKEN:
         from_secret:  jass_token
       # other environment variables...
     commands:
