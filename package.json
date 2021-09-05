@@ -1,19 +1,18 @@
 {
-  "name": "@semantic-release/github",
+  "name": "@semantic-release/gitlab",
   "description": "semantic-release plugin to publish a GitHub release and comment on released Pull Requests/Issues",
-  "version": "0.0.0-development",
-  "author": "Pierre Vanduynslager (https://twitter.com/@pvdlg_)",
+  "version": "0.0.0",
+  "author": "Jorge Assunção",
   "ava": {
     "files": [
       "test/**/*.test.js"
     ]
   },
   "bugs": {
-    "url": "https://github.com/semantic-release/github/issues"
+    "url": "https://gitlab.jassuncao.work/cpha/install-scripts/-/issues"
   },
   "contributors": [
-    "Stephan Bönnemann <stephan@boennemann.me> (http://boennemann.me)",
-    "Gregor Martynus (https://twitter.com/gr2m)"
+    "Jorge Assunção <j.assuncao@oestedesign.pt> (http://oestedesign.pt)"
   ],
   "dependencies": {
     "@octokit/rest": "^18.0.0",
@@ -54,7 +53,7 @@
     "lib",
     "index.js"
   ],
-  "homepage": "https://github.com/semantic-release/github#readme",
+  "homepage": "https://gitlab.jassuncao.work/cpha/install-scripts#readme",
   "keywords": [
     "git",
     "github",
