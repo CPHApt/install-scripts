@@ -13,3 +13,4 @@ steps:
     GIT_USER_EMAIL: project12_bot@example.com
     GL_TOKEN:
       from_secret:  bot12_token
+
