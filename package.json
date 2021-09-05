@@ -1,5 +1,3 @@
-// https://github.com/semantic-release/github/blob/master/package.json
-
 {
   "name": "@semantic-release/gitlab",
   "description": "semantic-release plugin to publish a GitHub release and comment on released Pull Requests/Issues",
