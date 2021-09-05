@@ -19,3 +19,4 @@ steps:
     # semantic release token (for authentication)
     gitlab_token:
       from_secret:  jass2_token
+
