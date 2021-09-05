@@ -1,3 +1,12 @@
+## [1.0.4](http://gitlab.jassuncao.work/cpha/install-scripts/compare/v1.0.3...v1.0.4) (2021-09-05)
+
+
+### Bug Fixes
+
+* package.json ([5f104c7](http://gitlab.jassuncao.work/cpha/install-scripts/commit/5f104c78d044e6d004a7159e7d693099aa85d6ac))
+* package.json ([cde2027](http://gitlab.jassuncao.work/cpha/install-scripts/commit/cde2027cee889d6f2801e392e71fcad62975ce55))
+* package.json ([091adc1](http://gitlab.jassuncao.work/cpha/install-scripts/commit/091adc1ce0de59aed9d752ece2f4cfe1dfb86098))
+
 ## [1.0.3](http://gitlab.jassuncao.work/cpha/install-scripts/compare/v1.0.2...v1.0.3) (2021-09-05)
 
 
