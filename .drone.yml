@@ -16,4 +16,3 @@ steps:
       from_secret:  jass2_token
 
 # EOF
-
