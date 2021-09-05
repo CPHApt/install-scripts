@@ -14,3 +14,4 @@ steps:
     GL_TOKEN:
       from_secret:  bot12_token
 
+# EOF
