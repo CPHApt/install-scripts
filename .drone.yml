@@ -20,4 +20,3 @@ steps:
       gitlab_token:
         from_secret: jass_token
       update_readme_toc: true
-      npmPublish: false
