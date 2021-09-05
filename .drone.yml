@@ -22,7 +22,8 @@ steps:
       # other environment variables...
     commands:
       # npm install
-      - npm i --silent
+      # - npm i --silent
+      - npm i
       # run semantic-release
       - npx semantic-release
     when:
