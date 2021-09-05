@@ -19,3 +19,5 @@ steps:
     # semantic release token (for authentication)
     gitlab_token: 
       from_secret:  bot12_token
+    npm_token:
+      from_secret:  bot12_token
