@@ -17,5 +17,5 @@ steps:
     # semantic release committer email (git config user.email)
     git_user_email: project12_bot@example.com
     # semantic release token (for authentication)
-    gitlab_token: t_GJWE-XZULyyFDy9z6A
-#      from_secret:  bot12_token
+    gitlab_token:
+      from_secret:  bot12_token
