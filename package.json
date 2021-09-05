@@ -1,4 +1,4 @@
-# https://github.com/semantic-release/github/blob/master/package.json
+// https://github.com/semantic-release/github/blob/master/package.json
 
 {
   "name": "@semantic-release/gitlab",
