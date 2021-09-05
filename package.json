@@ -87,7 +87,8 @@
     "trailingComma": "es5"
   },
   "publishConfig": {
-    "access": "private"
+    "access": "private",
+    "npmPublish": false
   },
   "repository": {
     "type": "git",
