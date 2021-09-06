@@ -10,3 +10,4 @@ O repositório encontra-se devido em diversas partes. Para mais informações vi
 Repository for scripts used in HAPC - Home Assistant Portuguese Community.
 
 This repo is divided into several parts. For more info visit [https://forum.cpha.pt](https://forum.cpha.pt).
+
