@@ -1,7 +1,7 @@
 {
   "name": "@semantic-release/gitlab",
   "description": "semantic-release plugin to publish a GitHub release and comment on released Pull Requests/Issues",
-  "version": "1.0.7",
+  "version": "1.1.0",
   "author": "Jorge Assunção",
   "ava": {
     "files": [

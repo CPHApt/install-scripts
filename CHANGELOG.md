@@ -1,3 +1,10 @@
+# [1.1.0](http://gitlab.jassuncao.work/cpha/install-scripts/compare/v1.0.7...v1.1.0) (2021-09-06)
+
+
+### Features
+
+* README.md ([1ae23ea](http://gitlab.jassuncao.work/cpha/install-scripts/commit/1ae23ea9c35fc718ae40d87b66645e685934e4a7))
+
 ## [1.0.7](http://gitlab.jassuncao.work/cpha/install-scripts/compare/v1.0.6...v1.0.7) (2021-09-05)
 
 
