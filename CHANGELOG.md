@@ -1,3 +1,10 @@
+## [1.1.1](http://gitlab.jassuncao.work/cpha/install-scripts/compare/v1.1.0...v1.1.1) (2021-09-06)
+
+
+### Performance Improvements
+
+* package.json ([0167aa4](http://gitlab.jassuncao.work/cpha/install-scripts/commit/0167aa4e72bc6653ea5bf2974852ec3a6b2e5817))
+
 # [1.1.0](http://gitlab.jassuncao.work/cpha/install-scripts/compare/v1.0.7...v1.1.0) (2021-09-06)
 
 
