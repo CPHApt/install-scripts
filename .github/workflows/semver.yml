@@ -5,9 +5,9 @@ author: 'codfish'
 branding:
   icon: 'arrow-up-right'
   color: 'orange'
+on: push
 inputs:
   branches:
-    name: ['+([0-9])?(.{+([0-9]),x}).x', 'master', 'next', 'next-major', {name: 'beta', prerelease: true}, {name: 'alpha', prerelease: true}]
     description:
       'The branches on which releases should happen.
       https://github.com/semantic-release/semantic-release/blob/master/docs/usage/configuration.md#branches'
