@@ -128,6 +128,19 @@
       "unicorn/string-content": "off"
     }
   },
+  "release": {
+    "analyzeCommits": "@semantic-release/commit-analyzer",
+    "verifyConditions": "@semantic-release/npm",
+    "prepare": "@semantic-release/npm",
+    "generateNotes" : "@semantic-release/release-notes-generator",
+    "publish": "@semantic-release/npm",
+    "success": false,
+    "fail": false,
+    "branch": "master",
+    "npmPublish": false,
+    "tarballDir": "dist",
+    "assets": "dist/*.tgz"
+  },
   "renovate": {
     "extends": [
       "github>semantic-release/.github"
