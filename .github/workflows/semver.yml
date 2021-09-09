@@ -11,7 +11,7 @@ inputs:
     description:
       'The branches on which releases should happen.
       https://github.com/semantic-release/semantic-release/blob/master/docs/usage/configuration.md#branches'
-    required: false
+    required: true
   plugins:
     description:
       'Define the list of plugins to use. Plugins will run in series, in the order defined, for each
