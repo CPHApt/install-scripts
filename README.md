@@ -1,7 +1,7 @@
 [English](./README-en-EN.md)
 [<img src="https://avatars.githubusercontent.com/u/88738079?s=400&u=ca61a124c283d03a55afefbb7b9b98dfbd6e135e&v=4" alt="Logo of the project" align="right" width="9%" height="9%">](https://forum.cpha.pt)
   
-# CPHA.pt ![example workflow](https://github.com/CPHApt/install-scripts/actions/workflows/semver.yml/badge.svg) [![Discord](https://img.shields.io/discord/494714310518505472?style=plastic)](https://discord.gg/Mh9mTEA) [![License](https://img.shields.io/github/license/CPHApt/install-scripts?style=plastic)](https://github.com/CPHApt/install-scripts/blob/main/LICENSE) ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/CPHApt/install-scripts?style=plastic)
+# CPHA.pt ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/CPHApt/install-scripts/Semantic%20Release?style=plastic) [![Discord](https://img.shields.io/discord/494714310518505472?style=plastic)](https://discord.gg/Mh9mTEA) [![License](https://img.shields.io/github/license/CPHApt/install-scripts?style=plastic)](https://github.com/CPHApt/install-scripts/blob/main/LICENSE) ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/CPHApt/install-scripts?style=plastic)
 > 🔥CPHA - Comunidade Portuguesa de Home Assistant🔥  
   
 [![GitHub watchers](https://img.shields.io/github/watchers/CPHApt/install-scripts.svg?style=social&label=Watch)](https://GitHub.com/CPHApt/install-scripts/watchers/) 
