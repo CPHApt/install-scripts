@@ -134,7 +134,7 @@
     "prepare": "@semantic-release/npm",
     "generateNotes" : "@semantic-release/release-notes-generator",
     "publish": "@semantic-release/npm",
-    "success": false,
+    "success": true,
     "fail": false,
     "branch": "master",
     "npmPublish": false,
