@@ -73,14 +73,14 @@ else
     "${STORAGE_MENU[@]}" 3>&1 1>&2 2>&3) || exit
   done
 fi
-info "Using '$STORAGE' for storage location."
+info "Usar '$STORAGE' para storage."
 
 # Get the next guest VM/LXC ID
 VMID=$(pvesh get /cluster/nextid)
-info "Container ID is $VMID."
+info "Container ID é $VMID."
 
 # Get latest Home Assistant disk image archive URL
-echo -e "\e[1;33m Getting URL for latest Home Assistant disk image... \e[0m"
+echo -e "\e[1;33m Obtendo URL para a imagem mais recente do Home Assistant ... \e[0m"
 RELEASE_TYPE=qcow2
 URL=$(cat<<EOF | python3
 import requests
@@ -103,7 +103,7 @@ if [ -z "$URL" ]; then
 fi
 
 # Download Home Assistant disk image archive
-echo -e "\e[1;33m Downloading disk image... \e[0m"
+echo -e "\e[1;33m Downloading... \e[0m"
 wget -q --show-progress $URL
 echo -en "\e[1A\e[0K" #Overwrite output from wget
 FILE=$(basename $URL)
@@ -119,7 +119,7 @@ if [[ $FILE == *.zip ]]; then
 fi
 
 # Extract Home Assistant disk image
-echo -e "\e[1;33m Extracting disk image... \e[0m"
+echo -e "\e[1;33m Extracting... \e[0m"
 case $FILE in
   *"gz") gunzip -f $FILE;;
   *"zip") unzip -o $FILE;;
@@ -142,8 +142,7 @@ for i in {0,1}; do
 done
 
 # Create VM
-echo -e "\e[1;33m Creating VM... \e[0m"
-# VM_NAME=$(sed -e "s/\_//g" -e "s/.${RELEASE_TYPE}.*$//" <<< $FILE)
+echo -e "\e[1;33m A criar VM... \e[0m"
 VM_NAME="homeassistant"
 qm create $VMID -agent 1 -bios ovmf -cores 2 -memory 4096 -name $VM_NAME -net0 virtio,bridge=vmbr0 \
   -onboot 1 -ostype l26 -scsihw virtio-scsi-pci
@@ -158,7 +157,7 @@ qm set $VMID \
 # Add serial port and enable console output
 set +o errtrace
 (
-  echo -e "\e[1;33m Adding serial port and configuring console... \e[0m"
+  echo -e "\e[1;33m Adicionar porta serial e configurar console... \e[0m"
   trap '
     warn "Unable to configure serial port. VM is still functional."
     if [ "$(qm config $VMID | sed -n ''/serial0/p'')" != "" ]; then
@@ -186,4 +185,15 @@ set +o errtrace
   qm set $VMID -serial0 socket >/dev/null
 )
 
-info "Completed Successfully! New VM ID is \e[1m$VMID\e[0m."
+info
+info "O Home Assistant está instalado!"
+info "http://${IP_ADDRESS}:8123"
+info
+info "VM ID é \e[1m$VMID\e[0m."
+info
+info "Se precisares de ajuda usa um dos seguintes links:"
+info
+info "https://forum.cpha.pt ou https://discord.gg/Mh9mTEA"
+info
+info by CPHA - Comunidade Portuguesa de Home Assistant
+info
