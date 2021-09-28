@@ -189,8 +189,6 @@ info
 info "O Home Assistant está instalado!"
 info "http://${IP_ADDRESS}:8123"
 info
-info "VM ID é \e[1m$VMID\e[0m."
-info
 info "Se precisares de ajuda usa um dos seguintes links:"
 info
 info "https://forum.cpha.pt ou https://discord.gg/Mh9mTEA"
