@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
+# USAGE:
+# bash -c "$(wget -qLO - https://raw.githubusercontent.com/CPHApt/install-scripts/master/homeassistant/hassio.sh)"
+#
 
 # Setup script environment
 set -o errexit  #Exit immediately if a pipeline returns a non-zero status
