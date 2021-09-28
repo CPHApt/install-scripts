@@ -1,9 +1,5 @@
 #!/usr/bin/env bash
 
-# USAGE:
-# bash -c "$(wget -qLO - https://raw.githubusercontent.com/CPHApt/install-scripts/master/homeassistant/hassio.sh)"
-# 
-
 # Setup script environment
 set -o errexit  #Exit immediately if a pipeline returns a non-zero status
 set -o errtrace #Trap ERR from shell functions, command substitutions, and commands from subshell
@@ -77,14 +73,14 @@ else
     "${STORAGE_MENU[@]}" 3>&1 1>&2 2>&3) || exit
   done
 fi
-#info "Using '$STORAGE' for storage location."
+info "Using '$STORAGE' for storage location."
 
 # Get the next guest VM/LXC ID
 VMID=$(pvesh get /cluster/nextid)
-info "Home Assistant VM ID $VMID."
+info "Container ID is $VMID."
 
 # Get latest Home Assistant disk image archive URL
-echo -e "\e[1;33m CPHA - Home Assistant... \e[0m"
+echo -e "\e[1;33m CPHA - Home Assistant ID$VMID \e[0m"
 RELEASE_TYPE=qcow2
 URL=$(cat<<EOF | python3
 import requests
