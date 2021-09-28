@@ -23,6 +23,12 @@ systemctl stop ModemManager
 # Install Docker
 curl -fsSL get.docker.com | sh
 
+### OS-Agent (by sassa)
+apt-get install -y udisks2
+apt --fix-broken install
+wget https://github.com/home-assistant/os-agent/releases/download/1.2.0/os-agent_1.2.0_linux_x86_64.deb
+dpkg -i os-agent_1.2.0_linux_x86_64.deb
+
 # Install HA
 set -e
 
