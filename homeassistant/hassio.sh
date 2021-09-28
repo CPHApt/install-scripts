@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # USAGE:
-# sudo bash -c "$(wget -qLO - https://raw.githubusercontent.com/CPHApt/install-scripts/master/homeassistant/hassio.sh)"
+# bash -c "$(wget -qLO - https://raw.githubusercontent.com/CPHApt/install-scripts/master/homeassistant/hassio.sh)"
 # 
 
 # Setup script environment
