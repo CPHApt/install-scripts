@@ -187,7 +187,6 @@ set +o errtrace
 
 info
 info "O Home Assistant está instalado!"
-info "http://${IP_ADDRESS}:8123"
 info
 info "Se precisares de ajuda usa um dos seguintes links:"
 info
